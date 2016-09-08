@@ -7,7 +7,7 @@
 include $(TOPDIR)/rules.mk
 
 LUCI_TITLE:=LUCI display S.M.A.R.T information
-LUCI_DEPENDS:=
+LUCI_DEPENDS:=+smartmontools
 
 include ../../luci.mk
 
